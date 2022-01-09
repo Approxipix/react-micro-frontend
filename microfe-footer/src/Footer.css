@@ -1,0 +1,12 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 4px dashed rgb(0, 0, 255);
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.Footer__title {
+  font-size: 28px;
+}

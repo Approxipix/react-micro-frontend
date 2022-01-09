@@ -1,0 +1,31 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #0082e6;
+}
+
+.Header__title {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.Header__nav-link {
+  padding: 6px 16px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all .2s ease-in-out;
+}
+
+.Header__nav-link.active,
+.Header__nav-link:hover {
+  background-color: #1b9bff;
+}
+
+.Header__nav-link:not(:last-child) {
+  margin-right: 24px;
+}

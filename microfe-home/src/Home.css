@@ -1,0 +1,12 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 4px dashed rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.Home__title {
+  font-size: 28px;
+}
