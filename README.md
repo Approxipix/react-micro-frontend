@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# React Micro Frontend
+This repo is an example implementation react application using micro-frontends.
+<div>
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/approxipix/react-micro-frontend?color=2b9348">
+  <img src="https://img.shields.io/depfu/approxipix/react-micro-frontend" alt="Dependencies status" />
+  <a href="https://github.com/approxipix/react-micro-frontend/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/elangosundar/awesome-README-templates?color=2b9348" alt="License Badge"/>
+  </a>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Examples
 
-## Available Scripts
+### Home Micro Fronend
+![example-1](https://github.com/Approxipix/react-micro-frontend/blob/master/example-1.png?raw=true) 
 
-In the project directory, you can run:
+### Blogs Micro Fronend
+![example-2](https://github.com/Approxipix/react-micro-frontend/blob/master/example-2.png?raw=true) 
 
-### `npm start`
+### About Micro Fronend
+![example-3](https://github.com/Approxipix/react-micro-frontend/blob/master/example-3.png?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+This example uses four React applications and a main app that hosts the micro-apps.
 
-### `npm test`
+To get started, clone the repo and run the following commands. It is important to follow the order as outlined below to ensure the micro-apps have been properly built before launching the host application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone project:
+```bash
+$ git clone https://github.com/Approxipix/react-micro-frontend.git
+```
 
-### `npm run build`
+### `microfe-footer`
+```bash
+# Navigate to the micro-app directory
+$ cd microfe-footer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install project dependencies
+$ npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run micro-frontend app
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `microfe-home`
+```bash
+# Navigate to the micro-app directory
+$ cd microfe-home
 
-### `npm run eject`
+# Install project dependencies
+$ npm i
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Run micro-frontend app
+$ npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `microfe-blogs`
+```bash
+# Navigate to the micro-app directory
+$ cd microfe-blogs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install project dependencies
+$ npm i
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Run micro-frontend app
+$ npm start
+```
 
-## Learn More
+### `microfe-about`
+```bash
+# Navigate to the micro-app directory
+$ cd microfe-about
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install project dependencies
+$ npm i
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run micro-frontend app
+$ npm start
+```
 
-### Code Splitting
+### Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The ```package.json``` file comes with the following scripts that you may find useful:   
+- ```npm start``` - Runs the app in the development mode.
+- ```npm run build``` - Builds the app for production to the build folder.
+- ```npm run test``` - Launches the test runner in the interactive watch mode.
 
-### Analyzing the Bundle Size
+## License  <a href="https://github.com/approxipix/react-micro-frontend/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elangosundar/awesome-README-templates?color=2b9348" alt="License Badge"/></a>
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/approxipix/react-micro-frontend/blob/master/LICENSE) file for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
